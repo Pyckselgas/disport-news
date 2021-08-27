@@ -4,7 +4,6 @@ $headline=[];
 $body=[];
 $img=[];
 $subtitle=[];
-echo $news[''];
 ?>
 
 <!DOCTYPE html>
