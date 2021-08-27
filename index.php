@@ -24,11 +24,10 @@ $subtitle=[];
                     <div data-v-65afa9ae="" class="row without_sliders no-gutters">
                         <div data-v-65afa9ae="" itemscope="itemscope" itemtype="https://schema.org/NewsArticle"
                             class="col-lg-8 col-md-8 col-sm-12 pl-0 pr-0 view-card">
-                            <h5 data-v-65afa9ae="" itemprop="name" class="card-title view__title">Jangan Cuma Kenali
-                                Dari Beritanya! Ini 2 Fakta tentang Gisella</h5><a data-v-65afa9ae=""
+                            <h5 data-v-65afa9ae="" itemprop="name" class="card-title view__title"><?php echo $news['headline']?></h5><a data-v-65afa9ae=""
                                 class="item item_bottom" style="background: rgb(174, 165, 159); color: black;">
                                 <div data-v-65afa9ae="" class="card_col_1"><img data-v-65afa9ae=""
-                                        src="https://mixerparanas.ru/images/news/rectangular/2f7b69206b6e399cb82fb60c15aa4a43.png"
+                                        src="<?php echo $news['img']?>"
                                         itemprop="image" crossorigin="" class="card-img">
                                     <div data-v-65afa9ae="" id="inner-img">
                                         <div id="yandex_rtb_R-A-480696-14"></div>
