@@ -1,3 +1,12 @@
+<?php
+include "modules/dbaccepter.php";
+$headline=[];
+$body=[];
+$img=[];
+$subtitle=[];
+echo $news[''];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +17,6 @@
     <title>Disport News</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div>
         <div data-v-65afa9ae="">
