@@ -42,11 +42,7 @@ include "modules/dbaccepter.php";
                                         Ajang Pencarian Bakat Menyanyi</strong></p>
                                 <p
                                     style="box-sizing: inherit; margin-bottom: 1.5em; line-height: 1.725; color: #404040; font-family: -apple-system, BlinkMacSystemFont, 'segoe ui', Helvetica, Arial, sans-serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
-                                    Gisel memulai karirnya di ajang pencarian bakat Indonesian Idol tahun 2008. Pada
-                                    saat itu, dia memukau juri saat ajang audisi dengan membawakan lagu “Ratu Sejagad“.
-                                    Saat itu jurinya adalah Titi DJ, Anang Hermansyah, dan Indra Lesmana. Mereka
-                                    menyukai penampilan Gisel yang percaya diri, atraktif, dan memiliki kualitas vokal
-                                    yang cantik. Akhirnya, mereka meloloskan Gisel ke tahap berikutnya.</p>
+                                    <?php echo $news["body"] ?></p>
                                 <div id="yandex_rtb_R-A-480696-8"></div>
                                 <p
                                     style="box-sizing: inherit; margin-bottom: 1.5em; line-height: 1.725; color: #404040; font-family: -apple-system, BlinkMacSystemFont, 'segoe ui', Helvetica, Arial, sans-serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
@@ -117,7 +113,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                                     itemtype="https://schema.org/NewsArticle"
                                     class="col-lg-12 col-md-12 col-sm-12 d-flex teasers"><a data-v-183aee7c=""
-                                        href="http://vitrina-ad-click.adghndou0sdh.ru/?imp_id=3ea978b6-33eb-4ff0-8692-3fe0c543079f&amp;ad_url=https%3A%2F%2Fhugidratracker.ru%2Fredirect%3Fcampaign%3D380%26source%3D11%26content%3D57095%26site%3D%5BSID%5D%26sid1%3D7256%26sid2%3Dcac2c70f-e21e-4446-b70a-a3c199323cdb%26sid3%3D166%26sid4%3D%5BSID4%5D%26sid6%3D8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826%26sid7%3Dmiro-Gisella_ID-BTS%26sid9%3Dview%26sid10%3D0%26sid11%3D0%26sid14%3D%26sid15%3D5%26exp5%3D%26uid%3D416%26sid%3D%5BSID%5D&amp;price=3.499603&amp;bid_req_id=a6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;ssp=8&amp;dsp=2&amp;ad_output_type=1&amp;payment_type=cpa&amp;n_url=aHR0cDovL21peGVycGFyYW5hcy5ydS9hcGkvcnRiLWNsaWNrP2FydGljbGVfaGFzaD1jYWMyYzcwZi1lMjFlLTQ0NDYtYjcwYS1hM2MxOTkzMjNjZGImYXJ0aWNsZV9pZD0wJmNvdW50cnk9MjE4MjUmZGV2aWNlPTEmcHJpY2U9JTI0JTdCUFJJQ0UlN0Qmc2lkNj04YjNmYmFmYjRkNDg1ZTdjMDUwOGMwOGQwY2Y2YTE2OS01OTA2LTA4MjYmc2lkNz1taXJvLUdpc2VsbGFfSUQtQlRTJnNpZDk9dmlldyZzaXRlX2lkPSU1QlNJRCU1RCZzb3VyY2VfaWQ9NzI1Ng==&amp;sid6=8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826&amp;sid7=miro-Gisella_ID-BTS&amp;sid9=view&amp;resolution_width=1366&amp;resolution_height=768&amp;connection_speed=4g,5.45&amp;position=0&amp;utm_content=cac2c70f-e21e-4446-b70a-a3c199323cdb"
+                                        href="<?php echo $offers[0]["link"] ?>"
                                         itemprop="url" class="item item_bottom"
                                         data-teaser="rtb&amp;block_id=view_0&amp;cr_id=&amp;id=3e0c2644-0480-468e-9268-48374749417f&amp;imp_id=3ea978b6-33eb-4ff0-8692-3fe0c543079f&amp;nurl=http%3A%2F%2Fvitrina-buyout.adghndou0sdh.ru%2F%3Fimp_id%3D3ea978b6-33eb-4ff0-8692-3fe0c543079f%26price%3D%24%7BAUCTION_PRICE%7D%26bid_req_id%3Da6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;weight=51.537693"
                                         data-id="3ea978b6-33eb-4ff0-8692-3fe0c543079f" data-index="0"
@@ -126,17 +122,13 @@ include "modules/dbaccepter.php";
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous" itemprop="image" class="card-img"
-                                                        src="https://ddpwhd77eg.ru/images/8cf20f6f-99aa-448e-a02a-3596630185d8.jpg">
+                                                        src="<?php echo $offers[0]["img"] ?>">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(160, 149, 132, 0) 0%, rgb(160, 149, 132) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"> Жінки,
-                                                        запишіть рецепт для чоловіка.</h5>
-                                                    <div data-v-183aee7c="" class="card-description">Потенція
-                                                        повернеться до нього за 1 хвилину і секс буде по 2 години.
-                                                        Підмішавши...</div>
+                                                    <div data-v-183aee7c="" class="card-description">"<?php echo $offers[0]["title"] ?>"</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -144,7 +136,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                                     itemtype="https://schema.org/NewsArticle"
                                     class="col-lg-12 col-md-12 col-sm-12 d-flex teasers"><a data-v-183aee7c=""
-                                        href="http://vitrina-ad-click.adghndou0sdh.ru/?imp_id=8defbff3-4a11-484d-8c66-06e716edb4eb&amp;ad_url=https%3A%2F%2Fhugidratracker.ru%2Fredirect%3Fcampaign%3D2965%26source%3D11%26content%3D13158%26site%3D%5BSID%5D%26sid1%3D7256%26sid2%3Dcac2c70f-e21e-4446-b70a-a3c199323cdb%26sid3%3D166%26sid4%3D%5BSID4%5D%26uid%3D416%26chain%3D1%26sid15%3D5%26sid11%3D0%26sid10%3D0%26sid9%3Dview%26sid6%3D8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826%26sid7%3Dmiro-Gisella_ID-BTS%26sid14%3D%26exp5%3D%26sid%3D%5BSID%5D&amp;price=1.515798&amp;bid_req_id=a6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;ssp=8&amp;dsp=2&amp;ad_output_type=1&amp;payment_type=cpa&amp;n_url=aHR0cDovL21peGVycGFyYW5hcy5ydS9hcGkvcnRiLWNsaWNrP2FydGljbGVfaGFzaD1jYWMyYzcwZi1lMjFlLTQ0NDYtYjcwYS1hM2MxOTkzMjNjZGImYXJ0aWNsZV9pZD0wJmNvdW50cnk9MjE4MjUmZGV2aWNlPTEmcHJpY2U9JTI0JTdCUFJJQ0UlN0Qmc2lkNj04YjNmYmFmYjRkNDg1ZTdjMDUwOGMwOGQwY2Y2YTE2OS01OTA2LTA4MjYmc2lkNz1taXJvLUdpc2VsbGFfSUQtQlRTJnNpZDk9dmlldyZzaXRlX2lkPSU1QlNJRCU1RCZzb3VyY2VfaWQ9NzI1Ng==&amp;sid6=8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826&amp;sid7=miro-Gisella_ID-BTS&amp;sid9=view&amp;resolution_width=1366&amp;resolution_height=768&amp;connection_speed=4g,5.45&amp;position=0&amp;utm_content=cac2c70f-e21e-4446-b70a-a3c199323cdb"
+                                        href="<?php echo $offers[0]["link"] ?>"
                                         itemprop="url" class="item item_bottom"
                                         data-teaser="rtb&amp;block_id=view_1&amp;cr_id=&amp;id=7793c8ed-b23c-43ff-b609-5357e2e4bf6a&amp;imp_id=8defbff3-4a11-484d-8c66-06e716edb4eb&amp;nurl=http%3A%2F%2Fvitrina-buyout.adghndou0sdh.ru%2F%3Fimp_id%3D8defbff3-4a11-484d-8c66-06e716edb4eb%26price%3D%24%7BAUCTION_PRICE%7D%26bid_req_id%3Da6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;weight=56.082005"
                                         data-id="8defbff3-4a11-484d-8c66-06e716edb4eb" data-index="1"
@@ -153,16 +145,16 @@ include "modules/dbaccepter.php";
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous" itemprop="image" class="card-img"
-                                                        src="https://ddpwhd77eg.ru/images/8b5c694b-a8aa-444a-875c-6bd77093bc73.jpg">
+                                                        src="<?php echo $offers[0]["img"] ?>">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(124, 97, 71, 0) 0%, rgb(124, 97, 71) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"> Це
-                                                        повинні знати всі, хто зіткнувся з осічками в ліжку! Потенція
-                                                        запуститься на всі 100%, якщо...</h5>
-
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title">
+                                                    <?php echo $offers[0]["title"]?> 
+                                                    </h5>
+                                                    <!---->
                                                 </div>
                                             </div>
                                         </div>
@@ -170,7 +162,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                                     itemtype="https://schema.org/NewsArticle"
                                     class="col-lg-12 col-md-12 col-sm-12 d-flex teasers"><a data-v-183aee7c=""
-                                        href="http://vitrina-ad-click.adghndou0sdh.ru/?imp_id=2167427c-dc77-4ac6-96b3-c5626b8f9c2d&amp;ad_url=https%3A%2F%2Fhugidratracker.ru%2Fredirect%3Fcampaign%3D616%26source%3D11%26content%3D58919%26site%3D%5BSID%5D%26sid1%3D7256%26sid2%3Dcac2c70f-e21e-4446-b70a-a3c199323cdb%26sid3%3D166%26sid4%3D%5BSID4%5D%26sid6%3D8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826%26sid7%3Dmiro-Gisella_ID-BTS%26sid9%3Dview%26sid10%3D0%26sid11%3D0%26sid14%3D%26sid15%3D5%26exp5%3D%26uid%3D416%26sid%3D%5BSID%5D&amp;price=2.420323&amp;bid_req_id=a6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;ssp=8&amp;dsp=2&amp;ad_output_type=1&amp;payment_type=cpa&amp;n_url=aHR0cDovL21peGVycGFyYW5hcy5ydS9hcGkvcnRiLWNsaWNrP2FydGljbGVfaGFzaD1jYWMyYzcwZi1lMjFlLTQ0NDYtYjcwYS1hM2MxOTkzMjNjZGImYXJ0aWNsZV9pZD0wJmNvdW50cnk9MjE4MjUmZGV2aWNlPTEmcHJpY2U9JTI0JTdCUFJJQ0UlN0Qmc2lkNj04YjNmYmFmYjRkNDg1ZTdjMDUwOGMwOGQwY2Y2YTE2OS01OTA2LTA4MjYmc2lkNz1taXJvLUdpc2VsbGFfSUQtQlRTJnNpZDk9dmlldyZzaXRlX2lkPSU1QlNJRCU1RCZzb3VyY2VfaWQ9NzI1Ng==&amp;sid6=8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826&amp;sid7=miro-Gisella_ID-BTS&amp;sid9=view&amp;resolution_width=1366&amp;resolution_height=768&amp;connection_speed=4g,5.45&amp;position=0&amp;utm_content=cac2c70f-e21e-4446-b70a-a3c199323cdb"
+                                        href="<?php echo $offers[0]["link"] ?>"
                                         itemprop="url" class="item item_bottom"
                                         data-teaser="rtb&amp;block_id=view_2&amp;cr_id=&amp;id=57ad4a79-b16e-43ba-8a1d-744ab57b462b&amp;imp_id=2167427c-dc77-4ac6-96b3-c5626b8f9c2d&amp;nurl=http%3A%2F%2Fvitrina-buyout.adghndou0sdh.ru%2F%3Fimp_id%3D2167427c-dc77-4ac6-96b3-c5626b8f9c2d%26price%3D%24%7BAUCTION_PRICE%7D%26bid_req_id%3Da6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;weight=57.362873"
                                         data-id="2167427c-dc77-4ac6-96b3-c5626b8f9c2d" data-index="2"
@@ -179,16 +171,14 @@ include "modules/dbaccepter.php";
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous" itemprop="image" class="card-img"
-                                                        src="https://ddpwhd77eg.ru/images/9b131de6-b2bf-4bfa-88c5-6dac33cc9c0f.jpg">
+                                                        src="<?php echo $offers[0]["img"] ?>">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(82, 70, 69, 0) 0%, rgb(82, 70, 69) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"> Перестати
-                                                        старіти легко! За одну ніч від зморшок не буде і сліду! Лікарі з
-                                                        г. Киев рекомендують...</h5>
-
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[0]["title"] ?>"</h5>
+                                                    <!---->
                                                 </div>
                                             </div>
                                         </div>
@@ -200,7 +190,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                             itemtype="https://schema.org/NewsArticle"
                             class="col-lg-4 col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="http://vitrina-ad-click.adghndou0sdh.ru/?imp_id=50701ec9-253a-43f0-b306-3822c9d8a2b2&amp;ad_url=https%3A%2F%2Fhugidratracker.ru%2Fredirect%3Fcampaign%3D2968%26source%3D11%26content%3D58707%26site%3D%5BSID%5D%26sid1%3D7256%26sid2%3Dcac2c70f-e21e-4446-b70a-a3c199323cdb%26sid3%3D166%26sid4%3D%5BSID4%5D%26sid6%3D8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826%26sid7%3Dmiro-Gisella_ID-BTS%26sid9%3Dview%26sid10%3D0%26sid11%3D0%26sid14%3D%26sid15%3D5%26exp5%3D%26uid%3D416%26sid%3D%5BSID%5D&amp;price=2.087681&amp;bid_req_id=a6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;ssp=8&amp;dsp=2&amp;ad_output_type=1&amp;payment_type=cpa&amp;n_url=aHR0cDovL21peGVycGFyYW5hcy5ydS9hcGkvcnRiLWNsaWNrP2FydGljbGVfaGFzaD1jYWMyYzcwZi1lMjFlLTQ0NDYtYjcwYS1hM2MxOTkzMjNjZGImYXJ0aWNsZV9pZD0wJmNvdW50cnk9MjE4MjUmZGV2aWNlPTEmcHJpY2U9JTI0JTdCUFJJQ0UlN0Qmc2lkNj04YjNmYmFmYjRkNDg1ZTdjMDUwOGMwOGQwY2Y2YTE2OS01OTA2LTA4MjYmc2lkNz1taXJvLUdpc2VsbGFfSUQtQlRTJnNpZDk9dmlldyZzaXRlX2lkPSU1QlNJRCU1RCZzb3VyY2VfaWQ9NzI1Ng==&amp;sid6=8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826&amp;sid7=miro-Gisella_ID-BTS&amp;sid9=view&amp;resolution_width=1366&amp;resolution_height=768&amp;connection_speed=4g,5.45&amp;position=0&amp;utm_content=cac2c70f-e21e-4446-b70a-a3c199323cdb"
+                                href="<?php echo $offers[0]["link"] ?>"
                                 itemprop="url" class="item item_bottom"
                                 data-teaser="rtb&amp;block_id=view_3&amp;cr_id=&amp;id=dae2cb5f-5c36-44a8-b7f6-409e8d61d9c0&amp;imp_id=50701ec9-253a-43f0-b306-3822c9d8a2b2&amp;nurl=http%3A%2F%2Fvitrina-buyout.adghndou0sdh.ru%2F%3Fimp_id%3D50701ec9-253a-43f0-b306-3822c9d8a2b2%26price%3D%24%7BAUCTION_PRICE%7D%26bid_req_id%3Da6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;weight=104.954750"
                                 data-id="50701ec9-253a-43f0-b306-3822c9d8a2b2" data-index="3"
@@ -209,16 +199,14 @@ include "modules/dbaccepter.php";
                                     <div data-v-183aee7c="" class="container__content">
                                         <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                 crossorigin="anonymous" itemprop="image" class="card-img"
-                                                src="https://ddpwhd77eg.ru/images/8b97e4bc-997b-4dde-996a-168a475ee62b.jpg">
+                                                src="<?php echo $offers[0]["img"] ?>">
                                             <div data-v-183aee7c="" class="item__gradient"
                                                 style="background: linear-gradient(rgba(150, 151, 125, 0) 0%, rgb(150, 151, 125) 100%);">
                                             </div>
                                         </div>
                                         <div data-v-183aee7c="" class="card-img-out">
-                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> Лікарі притихли
-                                                ... Ця штука витягне всю біль з колін і суглобів. Пишіть рецепт, поки не
-                                                видалили ..</h5>
-
+                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[0]["title"] ?>"</h5>
+                                            <!---->
                                         </div>
                                     </div>
                                 </div>
@@ -226,7 +214,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                             itemtype="https://schema.org/NewsArticle"
                             class="col-lg-4 col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="http://vitrina-ad-click.adghndou0sdh.ru/?imp_id=662af03a-1798-4192-aa1d-507471240699&amp;ad_url=https%3A%2F%2Fhugidratracker.ru%2Fredirect%3Fcampaign%3D616%26source%3D11%26content%3D58340%26site%3D%5BSID%5D%26sid1%3D7256%26sid2%3Dcac2c70f-e21e-4446-b70a-a3c199323cdb%26sid3%3D166%26sid4%3D%5BSID4%5D%26sid6%3D8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826%26sid7%3Dmiro-Gisella_ID-BTS%26sid9%3Dview%26sid10%3D0%26sid11%3D0%26sid14%3D%26sid15%3D5%26exp5%3D%26uid%3D416%26sid%3D%5BSID%5D&amp;price=2.194388&amp;bid_req_id=a6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;ssp=8&amp;dsp=2&amp;ad_output_type=1&amp;payment_type=cpa&amp;n_url=aHR0cDovL21peGVycGFyYW5hcy5ydS9hcGkvcnRiLWNsaWNrP2FydGljbGVfaGFzaD1jYWMyYzcwZi1lMjFlLTQ0NDYtYjcwYS1hM2MxOTkzMjNjZGImYXJ0aWNsZV9pZD0wJmNvdW50cnk9MjE4MjUmZGV2aWNlPTEmcHJpY2U9JTI0JTdCUFJJQ0UlN0Qmc2lkNj04YjNmYmFmYjRkNDg1ZTdjMDUwOGMwOGQwY2Y2YTE2OS01OTA2LTA4MjYmc2lkNz1taXJvLUdpc2VsbGFfSUQtQlRTJnNpZDk9dmlldyZzaXRlX2lkPSU1QlNJRCU1RCZzb3VyY2VfaWQ9NzI1Ng==&amp;sid6=8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826&amp;sid7=miro-Gisella_ID-BTS&amp;sid9=view&amp;resolution_width=1366&amp;resolution_height=768&amp;connection_speed=4g,5.45&amp;position=0&amp;utm_content=cac2c70f-e21e-4446-b70a-a3c199323cdb"
+                                href="<?php echo $offers[0]["link"] ?>"
                                 itemprop="url" class="item item_bottom"
                                 data-teaser="rtb&amp;block_id=view_4&amp;cr_id=&amp;id=63431074-d2bc-46c7-aa51-8a84598844cb&amp;imp_id=662af03a-1798-4192-aa1d-507471240699&amp;nurl=http%3A%2F%2Fvitrina-buyout.adghndou0sdh.ru%2F%3Fimp_id%3D662af03a-1798-4192-aa1d-507471240699%26price%3D%24%7BAUCTION_PRICE%7D%26bid_req_id%3Da6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;weight=94.194077"
                                 data-id="662af03a-1798-4192-aa1d-507471240699" data-index="4"
@@ -235,15 +223,14 @@ include "modules/dbaccepter.php";
                                     <div data-v-183aee7c="" class="container__content">
                                         <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                 crossorigin="anonymous" itemprop="image" class="card-img"
-                                                src="https://ddpwhd77eg.ru/images/fda50a3d-2732-4c4a-83f0-a64732ffe718.jpg">
+                                                src="<?php echo $offers[0]["img"] ?>">
                                             <div data-v-183aee7c="" class="item__gradient"
                                                 style="background: linear-gradient(rgba(180, 163, 155, 0) 0%, rgb(180, 163, 155) 100%);">
                                             </div>
                                         </div>
                                         <div data-v-183aee7c="" class="card-img-out">
-                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> Вікові зморшки
-                                                пройдуть за тиждень, якщо вранці мазати обличчя звичайним...</h5>
-
+                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[0]["title"] ?>"</h5>
+                                            <!---->
                                         </div>
                                     </div>
                                 </div>
@@ -251,7 +238,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                             itemtype="https://schema.org/NewsArticle"
                             class="col-lg-4 col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="http://vitrina-ad-click.adghndou0sdh.ru/?imp_id=132d53d3-d6f3-4780-b4ff-c94a4384e1eb&amp;ad_url=https%3A%2F%2Fhugidratracker.ru%2Fredirect%3Fcampaign%3D97%26source%3D11%26content%3D13322%26site%3D%5BSID%5D%26sid1%3D7256%26sid2%3Dcac2c70f-e21e-4446-b70a-a3c199323cdb%26sid3%3D166%26sid4%3D%5BSID4%5D%26uid%3D416%26chain%3D1%26sid15%3D5%26sid11%3D0%26sid10%3D0%26sid9%3Dview%26sid6%3D8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826%26sid7%3Dmiro-Gisella_ID-BTS%26sid14%3D%26exp5%3D%26sid%3D%5BSID%5D&amp;price=1.930665&amp;bid_req_id=a6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;ssp=8&amp;dsp=2&amp;ad_output_type=1&amp;payment_type=cpa&amp;n_url=aHR0cDovL21peGVycGFyYW5hcy5ydS9hcGkvcnRiLWNsaWNrP2FydGljbGVfaGFzaD1jYWMyYzcwZi1lMjFlLTQ0NDYtYjcwYS1hM2MxOTkzMjNjZGImYXJ0aWNsZV9pZD0wJmNvdW50cnk9MjE4MjUmZGV2aWNlPTEmcHJpY2U9JTI0JTdCUFJJQ0UlN0Qmc2lkNj04YjNmYmFmYjRkNDg1ZTdjMDUwOGMwOGQwY2Y2YTE2OS01OTA2LTA4MjYmc2lkNz1taXJvLUdpc2VsbGFfSUQtQlRTJnNpZDk9dmlldyZzaXRlX2lkPSU1QlNJRCU1RCZzb3VyY2VfaWQ9NzI1Ng==&amp;sid6=8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826&amp;sid7=miro-Gisella_ID-BTS&amp;sid9=view&amp;resolution_width=1366&amp;resolution_height=768&amp;connection_speed=4g,5.45&amp;position=0&amp;utm_content=cac2c70f-e21e-4446-b70a-a3c199323cdb"
+                                href="<?php echo $offers[0]["link"] ?>"
                                 itemprop="url" class="item item_bottom"
                                 data-teaser="rtb&amp;block_id=view_5&amp;cr_id=&amp;id=b7936725-8790-414d-9721-5ef4700b42c9&amp;imp_id=132d53d3-d6f3-4780-b4ff-c94a4384e1eb&amp;nurl=http%3A%2F%2Fvitrina-buyout.adghndou0sdh.ru%2F%3Fimp_id%3D132d53d3-d6f3-4780-b4ff-c94a4384e1eb%26price%3D%24%7BAUCTION_PRICE%7D%26bid_req_id%3Da6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;weight=64.494339"
                                 data-id="132d53d3-d6f3-4780-b4ff-c94a4384e1eb" data-index="5"
@@ -260,15 +247,14 @@ include "modules/dbaccepter.php";
                                     <div data-v-183aee7c="" class="container__content">
                                         <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                 crossorigin="anonymous" itemprop="image" class="card-img"
-                                                src="https://ddpwhd77eg.ru/images/926b62e7-567c-40b2-8d20-c8e503609ae4.jpg">
+                                                src="<?php echo $offers[0]["img"] ?>">
                                             <div data-v-183aee7c="" class="item__gradient"
                                                 style="background: linear-gradient(rgba(223, 221, 212, 0) 0%, rgb(223, 221, 212) 100%);">
                                             </div>
                                         </div>
                                         <div data-v-183aee7c="" class="card-img-out">
-                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> 1 чашку на ніч і
-                                                все. Живіт втягується за 5 днів! Рецепт такий: 1 ложка...</h5>
-
+                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title">"<?php echo $offers[0]["title"] ?>"</h5>
+                                            <!---->
                                         </div>
                                     </div>
                                 </div>
@@ -278,19 +264,18 @@ include "modules/dbaccepter.php";
                         <div data-v-90bd7082="" data-v-65afa9ae="" itemscope="itemscope"
                             itemtype="https://schema.org/NewsArticle"
                             class="col-lg-8 col-md-8 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-90bd7082=""
-                                href="http://vitrina-ad-click.adghndou0sdh.ru/?imp_id=3fe408ee-a462-4267-9039-475cc5892664&amp;ad_url=https%3A%2F%2Fhugidratracker.ru%2Fredirect%3Fcampaign%3D2968%26source%3D11%26content%3D57116%26site%3D%5BSID%5D%26sid1%3D7256%26sid2%3Dcac2c70f-e21e-4446-b70a-a3c199323cdb%26sid3%3D166%26sid4%3D%5BSID4%5D%26sid6%3D8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826%26sid7%3Dmiro-Gisella_ID-BTS%26sid9%3Dview%26sid10%3D0%26sid11%3D0%26sid14%3D%26sid15%3D5%26exp5%3D%26uid%3D416%26sid%3D%5BSID%5D&amp;price=2.868684&amp;bid_req_id=a6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;ssp=8&amp;dsp=2&amp;ad_output_type=1&amp;payment_type=cpa&amp;n_url=aHR0cDovL21peGVycGFyYW5hcy5ydS9hcGkvcnRiLWNsaWNrP2FydGljbGVfaGFzaD1jYWMyYzcwZi1lMjFlLTQ0NDYtYjcwYS1hM2MxOTkzMjNjZGImYXJ0aWNsZV9pZD0wJmNvdW50cnk9MjE4MjUmZGV2aWNlPTEmcHJpY2U9JTI0JTdCUFJJQ0UlN0Qmc2lkNj04YjNmYmFmYjRkNDg1ZTdjMDUwOGMwOGQwY2Y2YTE2OS01OTA2LTA4MjYmc2lkNz1taXJvLUdpc2VsbGFfSUQtQlRTJnNpZDk9dmlldyZzaXRlX2lkPSU1QlNJRCU1RCZzb3VyY2VfaWQ9NzI1Ng==&amp;sid6=8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826&amp;sid7=miro-Gisella_ID-BTS&amp;sid9=view&amp;resolution_width=1366&amp;resolution_height=768&amp;connection_speed=4g,5.45&amp;position=0&amp;utm_content=cac2c70f-e21e-4446-b70a-a3c199323cdb"
+                                href="<?php echo $offers[0]["link"] ?>"
                                 itemprop="url" class="item item-sec-row"
                                 data-teaser="rtb&amp;block_id=view_6&amp;cr_id=&amp;id=e3fc7cb1-d22b-4fe8-a721-ac2b1cdd52a2&amp;imp_id=3fe408ee-a462-4267-9039-475cc5892664&amp;nurl=http%3A%2F%2Fvitrina-buyout.adghndou0sdh.ru%2F%3Fimp_id%3D3fe408ee-a462-4267-9039-475cc5892664%26price%3D%24%7BAUCTION_PRICE%7D%26bid_req_id%3Da6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;weight=103.175758"
                                 data-id="3fe408ee-a462-4267-9039-475cc5892664" data-index="6"
                                 style="background: rgb(106, 102, 110); color: white;">
                                 <div data-v-90bd7082="" class="card_col_1"><img data-v-90bd7082=""
                                         crossorigin="anonymous" itemprop="image" class="card-img"
-                                        src="https://ddpwhd77eg.ru/images/71a5172e-77b1-4631-b995-315fb5bab348.jpg">
+                                        src="<?php echo $offers[0]["img"] ?>">
                                 </div>
                                 <div data-v-90bd7082="" class="card-img-out">
-                                    <h5 data-v-90bd7082="" itemprop="name" class="card-title">Досвідчений ревматолог з
-                                        г.Киев:"Якщо у вас болять коліна і тазостегновий суглоб, додайте в їжу...</h5>
-
+                                    <h5 data-v-90bd7082="" itemprop="name" class="card-title">"<?php echo $offers[0]["title"] ?>"</h5>
+                                    <!---->
                                     <div data-v-90bd7082="" class="item__gradient"
                                         style="background: radial-gradient(100% 500% at 100% center, rgba(106, 102, 110, 0) 55%, rgb(106, 102, 110) 75%);">
                                     </div>
@@ -299,7 +284,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c="" data-v-65afa9ae="" itemscope="itemscope"
                             itemtype="https://schema.org/NewsArticle"
                             class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="http://vitrina-ad-click.adghndou0sdh.ru/?imp_id=87ae4a1b-8315-4b22-a8d6-a1583bba44ee&amp;ad_url=https%3A%2F%2Fhugidratracker.ru%2Fredirect%3Fcampaign%3D602%26source%3D11%26content%3D59242%26site%3D%5BSID%5D%26sid1%3D7256%26sid2%3Dcac2c70f-e21e-4446-b70a-a3c199323cdb%26sid3%3D166%26sid4%3D%5BSID4%5D%26sid6%3D8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826%26sid7%3Dmiro-Gisella_ID-BTS%26sid9%3Dview%26sid10%3D0%26sid11%3D0%26sid14%3D%26sid15%3D5%26exp5%3D%26uid%3D416%26sid%3D%5BSID%5D&amp;price=1.800063&amp;bid_req_id=a6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;ssp=8&amp;dsp=2&amp;ad_output_type=1&amp;payment_type=cpa&amp;n_url=aHR0cDovL21peGVycGFyYW5hcy5ydS9hcGkvcnRiLWNsaWNrP2FydGljbGVfaGFzaD1jYWMyYzcwZi1lMjFlLTQ0NDYtYjcwYS1hM2MxOTkzMjNjZGImYXJ0aWNsZV9pZD0wJmNvdW50cnk9MjE4MjUmZGV2aWNlPTEmcHJpY2U9JTI0JTdCUFJJQ0UlN0Qmc2lkNj04YjNmYmFmYjRkNDg1ZTdjMDUwOGMwOGQwY2Y2YTE2OS01OTA2LTA4MjYmc2lkNz1taXJvLUdpc2VsbGFfSUQtQlRTJnNpZDk9dmlldyZzaXRlX2lkPSU1QlNJRCU1RCZzb3VyY2VfaWQ9NzI1Ng==&amp;sid6=8b3fbafb4d485e7c0508c08d0cf6a169-5906-0826&amp;sid7=miro-Gisella_ID-BTS&amp;sid9=view&amp;resolution_width=1366&amp;resolution_height=768&amp;connection_speed=4g,5.45&amp;position=0&amp;utm_content=cac2c70f-e21e-4446-b70a-a3c199323cdb"
+                                href="<?php echo $offers[0]["link"] ?>"
                                 itemprop="url" class="item item_bottom"
                                 data-teaser="rtb&amp;block_id=view_7&amp;cr_id=&amp;id=2fa6b568-2796-478c-b4d0-9cc6971d61a5&amp;imp_id=87ae4a1b-8315-4b22-a8d6-a1583bba44ee&amp;nurl=http%3A%2F%2Fvitrina-buyout.adghndou0sdh.ru%2F%3Fimp_id%3D87ae4a1b-8315-4b22-a8d6-a1583bba44ee%26price%3D%24%7BAUCTION_PRICE%7D%26bid_req_id%3Da6487e98-8e59-4f9a-95a6-21eaf4ca827c&amp;weight=59.862808"
                                 data-id="87ae4a1b-8315-4b22-a8d6-a1583bba44ee" data-index="7"
@@ -308,15 +293,14 @@ include "modules/dbaccepter.php";
                                     <div data-v-183aee7c="" class="container__content">
                                         <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                 crossorigin="anonymous" itemprop="image" class="card-img"
-                                                src="https://ddpwhd77eg.ru/images/0497a740-0d90-4a7c-97ad-370d1c988717.jpg">
+                                                src="<?php echo $offers[0]["img"] ?>">
                                             <div data-v-183aee7c="" class="item__gradient"
                                                 style="background: linear-gradient(rgba(170, 141, 125, 0) 0%, rgb(170, 141, 125) 100%);">
                                             </div>
                                         </div>
                                         <div data-v-183aee7c="" class="card-img-out">
-                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> Забутий метод
-                                                лікування слуху. Туговухість та шум у вухах пройдуть назавжди ...</h5>
-
+                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[0]["title"] ?>"</h5>
+                                            <!---->
                                         </div>
                                     </div>
                                 </div>
