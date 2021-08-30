@@ -10,6 +10,4 @@ while ($offers[$i] = mysqli_fetch_assoc($offersTable)) {
     $i++;
 }
 
-print_r($offers[0]["img"]);
-
 ?>
