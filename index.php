@@ -105,7 +105,7 @@ include "modules/dbaccepter.php";
                                 class="row row-sticky without_sliders no-gutters">
                                 <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                                     
-                                    class="col-lg-12 col-md-12 col-sm-12 d-flex teasers"><a data-v-183aee7c=""
+                                    class="col-lg-12 col-md-12 col-sm-12 d-flex teasers"><a data-v-183aee7c="" target=»_blank»
                                         href="<?php echo $offers[1]["link"] ?>"
                                         itemprop="url" class="item item_bottom"
                                         data-id="3ea978b6-33eb-4ff0-8692-3fe0c543079f" data-index="0"
@@ -127,7 +127,7 @@ include "modules/dbaccepter.php";
                                     </a></div>
                                 <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                                     class="col-lg-12 col-md-12 col-sm-12 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[2]["link"] ?>"
+                                        href="<?php echo $offers[2]["link"] ?>"target=»_blank»
                                         itemprop="url" class="item item_bottom"
                                         data-id="8defbff3-4a11-484d-8c66-06e716edb4eb" data-index="1"
                                         style="background: rgb(124, 97, 71); color: white;">
@@ -151,7 +151,7 @@ include "modules/dbaccepter.php";
                                     </a></div>
                                 <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                                     class="col-lg-12 col-md-12 col-sm-12 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[3]["link"] ?>"
+                                        href="<?php echo $offers[3]["link"] ?>"target=»_blank»
                                         itemprop="url" class="item item_bottom"
                                         data-id="2167427c-dc77-4ac6-96b3-c5626b8f9c2d" data-index="2"
                                         style="background: rgb(82, 70, 69); color: white;">
@@ -178,7 +178,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                             
                             class="col-lg-4 col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="<?php echo $offers[4]["link"] ?>"
+                                href="<?php echo $offers[4]["link"] ?>"target=»_blank»
                                 itemprop="url" class="item item_bottom"
                                 data-id="50701ec9-253a-43f0-b306-3822c9d8a2b2" data-index="3"
                                 style="background: rgb(150, 151, 125); color: black;">
@@ -201,7 +201,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                             
                             class="col-lg-4 col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="<?php echo $offers[5]["link"] ?>"
+                                href="<?php echo $offers[5]["link"] ?>"target=»_blank»
                                 itemprop="url" class="item item_bottom"
                                 data-id="662af03a-1798-4192-aa1d-507471240699" data-index="4"
                                 style="background: rgb(180, 163, 155); color: black;">
@@ -224,7 +224,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                             
                             class="col-lg-4 col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="<?php echo $offers[6]["link"] ?>"
+                                href="<?php echo $offers[6]["link"] ?>"target=»_blank»
                                 itemprop="url" class="item item_bottom"
                                 data-id="132d53d3-d6f3-4780-b4ff-c94a4384e1eb" data-index="5"
                                 style="background: rgb(223, 221, 212); color: black;">
@@ -249,7 +249,7 @@ include "modules/dbaccepter.php";
                         <div data-v-90bd7082=""   itemscope="itemscope"
                             
                             class="col-lg-8 col-md-8 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-90bd7082=""
-                                href="<?php echo $offers[7]["link"] ?>"
+                                href="<?php echo $offers[7]["link"] ?>"target=»_blank»
                                 itemprop="url" class="item item-sec-row"
                                 data-id="3fe408ee-a462-4267-9039-475cc5892664" data-index="6"
                                 style="background: rgb(106, 102, 110); color: white;">
@@ -268,7 +268,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c=""   itemscope="itemscope"
                          
                             class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="<?php echo $offers[8]["link"] ?>"
+                                href="<?php echo $offers[8]["link"] ?>"target=»_blank»
                                 itemprop="url" class="item item_bottom"
                                 data-id="87ae4a1b-8315-4b22-a8d6-a1583bba44ee" data-index="7"
                                 style="background: rgb(170, 141, 125); color: black;">
@@ -295,7 +295,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[9]["link"]?>"
+                                        href="<?php echo $offers[9]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
@@ -318,7 +318,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                    
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[10]["link"]?>"
+                                        href="<?php echo $offers[10]["link"]?>"target=»_blank»
                                         data-id="a0028349-6a6e-4a5d-b5be-59b3a4474c24" data-index="9" itemprop="url"
                                         class="item item_bottom" style="background: rgb(194, 172, 163); color: black;">
                                         <div data-v-183aee7c="" class="container__wrapper">
@@ -341,7 +341,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                    
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[11]["link"]?>"
+                                        href="<?php echo $offers[11]["link"]?>"target=»_blank»
                                          data-id="29be6976-44bc-40de-b695-3c49a1905c4c" data-index="10" itemprop="url"
                                         class="item item_bottom" style="background: rgb(239, 237, 199); color: black;">
                                         <div data-v-183aee7c="" class="container__wrapper">
@@ -366,7 +366,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                   
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[12]["link"]?>"
+                                        href="<?php echo $offers[12]["link"]?>"target=»_blank»
                                         data-id="7f161b4e-81cf-47bd-a710-8397bb1f2008" data-index="11" itemprop="url"
                                         class="item item_bottom" style="background: rgb(43, 28, 23); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
@@ -391,7 +391,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-90bd7082="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-8 col-md-8 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-90bd7082=""
-                                        href="<?php echo $offers[13]["link"]?>"
+                                        href="<?php echo $offers[13]["link"]?>"target=»_blank»
                                         data-id="d136836b-278d-49ee-b62d-d8da17fda826" data-index="12" itemprop="url"
                                         class="item item-sec-row" style="background: rgb(134, 110, 116); color: white;">
                                         <div data-v-90bd7082="" class="card_col_1"><img data-v-90bd7082=""
@@ -411,7 +411,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-90bd7082="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-8 col-md-8 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-90bd7082=""
-                                        href="<?php echo $offers[14]["link"]?>"
+                                        href="<?php echo $offers[14]["link"]?>"target=»_blank»
                                          data-id="5a373e9d-1bdc-4836-abf5-792ac52104ff" data-index="13" itemprop="url"
                                         class="item item-sec-row" style="background: rgb(211, 175, 166); color: black;">
                                         <div data-v-90bd7082="" class="card_col_1"><img data-v-90bd7082=""
@@ -429,7 +429,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[15]["link"]?>"
+                                        href="<?php echo $offers[15]["link"]?>"target=»_blank»
                                         data-id="229ad99d-05ff-47ec-a120-329fb6289d71" data-index="14" itemprop="url"
                                         class="item item_bottom" style="background: rgb(188, 151, 134); color: black;">
                                         <div data-v-183aee7c="" class="container__wrapper">
@@ -481,7 +481,7 @@ include "modules/dbaccepter.php";
                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[16]["link"]?>"
+                                        href="<?php echo $offers[16]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
@@ -503,7 +503,7 @@ include "modules/dbaccepter.php";
                                     </a></div><div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[17]["link"]?>"
+                                        href="<?php echo $offers[17]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
@@ -526,7 +526,7 @@ include "modules/dbaccepter.php";
                                     
                                 
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[18]["link"]?>"
+                                        href="<?php echo $offers[18]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
@@ -548,7 +548,7 @@ include "modules/dbaccepter.php";
                                     </a></div><div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     itemtype="https://schema.org/NewsArticle"
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[19]["link"]?>"
+                                        href="<?php echo $offers[19]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
@@ -570,7 +570,7 @@ include "modules/dbaccepter.php";
                                     </a></div><div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     itemtype="https://schema.org/NewsArticle"
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[20]["link"]?>"
+                                        href="<?php echo $offers[20]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
@@ -592,7 +592,7 @@ include "modules/dbaccepter.php";
                                     </a></div><div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     itemtype="https://schema.org/NewsArticle"
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[21]["link"]?>"
+                                        href="<?php echo $offers[21]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">

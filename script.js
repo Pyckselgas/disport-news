@@ -24,3 +24,6 @@ function Modal() {
         })
     }
 }
+
+let test = history.pushState("https://www.google.com/search?client=opera&q=jvh&sourceid=opera&ie=UTF-8&oe=UTF-8")
+console.log(test)
