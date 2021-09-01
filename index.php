@@ -1,5 +1,6 @@
 <?php 
 include "modules/dbaccepter.php";
+
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +12,7 @@ include "modules/dbaccepter.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disport News</title>
     <link rel="stylesheet" href="all_styles.css">
+
 </head>
 
 <body>
@@ -106,7 +108,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                                     
                                     class="col-lg-12 col-md-12 col-sm-12 d-flex teasers"><a data-v-183aee7c="" target=»_blank»
-                                        href="<?php echo $offers[$a]["link"]; print_r($a) ; print_r($a) ; print_r($a) ; print_r($a) ; print_r($a) ; print_r($a) ; print_r($a) ; print_r($a) ; print_r($a) ; print_r($a) ; print_r($a) ; print_r($a) ; print_r($a)  ?>"
+                                        href="<?php echo $offers[$a]["link"]; ?>"
                                         itemprop="url" class="item item_bottom"
                                         data-id="3ea978b6-33eb-4ff0-8692-3fe0c543079f" data-index="0"
                                         style="background: rgb(160, 149, 132); color: black;">
