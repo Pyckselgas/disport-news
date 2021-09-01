@@ -7,11 +7,7 @@ $offersTable = mysqli_query($induction, "SELECT * FROM `offers`");
 $news = mysqli_fetch_assoc($newsTable);
 $i = 0;
 $a = 0;
-
-$a++;
-if ($a > $i){
-    $a = 0;
-}
+print_r("ddd");
 while ($offers[$i] = mysqli_fetch_assoc($offersTable)) {
 $i++;
 }
