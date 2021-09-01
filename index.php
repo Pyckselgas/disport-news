@@ -106,7 +106,7 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                                     
                                     class="col-lg-12 col-md-12 col-sm-12 d-flex teasers"><a data-v-183aee7c="" target=»_blank»
-                                        href="<?php echo $offers[1]["link"] ?>"
+                                        href="<?php echo $offers[$a]["link"] ?>"
                                         itemprop="url" class="item item_bottom"
                                         data-id="3ea978b6-33eb-4ff0-8692-3fe0c543079f" data-index="0"
                                         style="background: rgb(160, 149, 132); color: black;">
@@ -114,20 +114,24 @@ include "modules/dbaccepter.php";
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous" itemprop="image" class="card-img"
-                                                        src="<?php echo $offers[1]["img"] ?>">
+                                                        src="<?php echo $offers[$a]["img"] ?>">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(160, 149, 132, 0) 0%, rgb(160, 149, 132) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <div data-v-183aee7c="" class="card-description">"<?php echo $offers[1]["title"] ?>"</div>
+                                                    <div data-v-183aee7c="" class="card-description">"<?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    } ?>"</div>
                                                 </div>
                                             </div>
                                         </div>
                                     </a></div>
                                 <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                                     class="col-lg-12 col-md-12 col-sm-12 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[2]["link"] ?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"] ?>"target=»_blank»
                                         itemprop="url" class="item item_bottom"
                                         data-id="8defbff3-4a11-484d-8c66-06e716edb4eb" data-index="1"
                                         style="background: rgb(124, 97, 71); color: white;">
@@ -135,14 +139,18 @@ include "modules/dbaccepter.php";
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous" itemprop="image" class="card-img"
-                                                        src="<?php echo $offers[2]["img"] ?>">
+                                                        src="<?php echo $offers[$a]["img"] ?>">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(124, 97, 71, 0) 0%, rgb(124, 97, 71) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
                                                     <h5 data-v-183aee7c="" itemprop="name" class="card-title">
-                                                    <?php echo $offers[2]["title"]?> 
+                                                    <?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?> 
                                                     </h5>
                                                     <!---->
                                                 </div>
@@ -151,7 +159,7 @@ include "modules/dbaccepter.php";
                                     </a></div>
                                 <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                                     class="col-lg-12 col-md-12 col-sm-12 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[3]["link"] ?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"] ?>"target=»_blank»
                                         itemprop="url" class="item item_bottom"
                                         data-id="2167427c-dc77-4ac6-96b3-c5626b8f9c2d" data-index="2"
                                         style="background: rgb(82, 70, 69); color: white;">
@@ -159,13 +167,17 @@ include "modules/dbaccepter.php";
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous" itemprop="image" class="card-img"
-                                                        src="<?php echo $offers[3]["img"] ?>">
+                                                        src="<?php echo $offers[$a]["img"] ?>">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(82, 70, 69, 0) 0%, rgb(82, 70, 69) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[3]["title"] ?>"</h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    } ?>"</h5>
                                                     <!---->
                                                 </div>
                                             </div>
@@ -178,7 +190,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                             
                             class="col-lg-4 col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="<?php echo $offers[4]["link"] ?>"target=»_blank»
+                                href="<?php echo $offers[$a]["link"] ?>"target=»_blank»
                                 itemprop="url" class="item item_bottom"
                                 data-id="50701ec9-253a-43f0-b306-3822c9d8a2b2" data-index="3"
                                 style="background: rgb(150, 151, 125); color: black;">
@@ -186,13 +198,17 @@ include "modules/dbaccepter.php";
                                     <div data-v-183aee7c="" class="container__content">
                                         <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                 crossorigin="anonymous" itemprop="image" class="card-img"
-                                                src="<?php echo $offers[4]["img"] ?>">
+                                                src="<?php echo $offers[$a]["img"] ?>">
                                             <div data-v-183aee7c="" class="item__gradient"
                                                 style="background: linear-gradient(rgba(150, 151, 125, 0) 0%, rgb(150, 151, 125) 100%);">
                                             </div>
                                         </div>
                                         <div data-v-183aee7c="" class="card-img-out">
-                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[4]["title"] ?>"</h5>
+                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    } ?>"</h5>
                                             <!---->
                                         </div>
                                     </div>
@@ -201,7 +217,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                             
                             class="col-lg-4 col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="<?php echo $offers[5]["link"] ?>"target=»_blank»
+                                href="<?php echo $offers[$a]["link"] ?>"target=»_blank»
                                 itemprop="url" class="item item_bottom"
                                 data-id="662af03a-1798-4192-aa1d-507471240699" data-index="4"
                                 style="background: rgb(180, 163, 155); color: black;">
@@ -209,13 +225,17 @@ include "modules/dbaccepter.php";
                                     <div data-v-183aee7c="" class="container__content">
                                         <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                 crossorigin="anonymous" itemprop="image" class="card-img"
-                                                src="<?php echo $offers[5]["img"] ?>">
+                                                src="<?php echo $offers[$a]["img"] ?>">
                                             <div data-v-183aee7c="" class="item__gradient"
                                                 style="background: linear-gradient(rgba(180, 163, 155, 0) 0%, rgb(180, 163, 155) 100%);">
                                             </div>
                                         </div>
                                         <div data-v-183aee7c="" class="card-img-out">
-                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[5]["title"] ?>"</h5>
+                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    } ?>"</h5>
                                             <!---->
                                         </div>
                                     </div>
@@ -224,7 +244,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c="" data-v-25dd09ec="" itemscope="itemscope"
                             
                             class="col-lg-4 col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="<?php echo $offers[6]["link"] ?>"target=»_blank»
+                                href="<?php echo $offers[$a]["link"] ?>"target=»_blank»
                                 itemprop="url" class="item item_bottom"
                                 data-id="132d53d3-d6f3-4780-b4ff-c94a4384e1eb" data-index="5"
                                 style="background: rgb(223, 221, 212); color: black;">
@@ -232,13 +252,17 @@ include "modules/dbaccepter.php";
                                     <div data-v-183aee7c="" class="container__content">
                                         <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                 crossorigin="anonymous" itemprop="image" class="card-img"
-                                                src="<?php echo $offers[6]["img"] ?>">
+                                                src="<?php echo $offers[$a]["img"] ?>">
                                             <div data-v-183aee7c="" class="item__gradient"
                                                 style="background: linear-gradient(rgba(223, 221, 212, 0) 0%, rgb(223, 221, 212) 100%);">
                                             </div>
                                         </div>
                                         <div data-v-183aee7c="" class="card-img-out">
-                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title">"<?php echo $offers[6]["title"] ?>"</h5>
+                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title">"<?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    } ?>"</h5>
                                             <!---->
                                         </div>
                                     </div>
@@ -249,16 +273,20 @@ include "modules/dbaccepter.php";
                         <div data-v-90bd7082=""   itemscope="itemscope"
                             
                             class="col-lg-8 col-md-8 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-90bd7082=""
-                                href="<?php echo $offers[7]["link"] ?>"target=»_blank»
+                                href="<?php echo $offers[$a]["link"] ?>"target=»_blank»
                                 itemprop="url" class="item item-sec-row"
                                 data-id="3fe408ee-a462-4267-9039-475cc5892664" data-index="6"
                                 style="background: rgb(106, 102, 110); color: white;">
                                 <div data-v-90bd7082="" class="card_col_1"><img data-v-90bd7082=""
                                         crossorigin="anonymous" itemprop="image" class="card-img"
-                                        src="<?php echo $offers[7]["img"] ?>">
+                                        src="<?php echo $offers[$a]["img"] ?>">
                                 </div>
                                 <div data-v-90bd7082="" class="card-img-out">
-                                    <h5 data-v-90bd7082="" itemprop="name" class="card-title">"<?php echo $offers[7]["title"] ?>"</h5>
+                                    <h5 data-v-90bd7082="" itemprop="name" class="card-title">"<?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    } ?>"</h5>
                                     <!---->
                                     <div data-v-90bd7082="" class="item__gradient"
                                         style="background: radial-gradient(100% 500% at 100% center, rgba(106, 102, 110, 0) 55%, rgb(106, 102, 110) 75%);">
@@ -268,7 +296,7 @@ include "modules/dbaccepter.php";
                         <div data-v-183aee7c=""   itemscope="itemscope"
                          
                             class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                href="<?php echo $offers[8]["link"] ?>"target=»_blank»
+                                href="<?php echo $offers[$a]["link"] ?>"target=»_blank»
                                 itemprop="url" class="item item_bottom"
                                 data-id="87ae4a1b-8315-4b22-a8d6-a1583bba44ee" data-index="7"
                                 style="background: rgb(170, 141, 125); color: black;">
@@ -276,13 +304,17 @@ include "modules/dbaccepter.php";
                                     <div data-v-183aee7c="" class="container__content">
                                         <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                 crossorigin="anonymous" itemprop="image" class="card-img"
-                                                src="<?php echo $offers[8]["img"] ?>">
+                                                src="<?php echo $offers[$a]["img"] ?>">
                                             <div data-v-183aee7c="" class="item__gradient"
                                                 style="background: linear-gradient(rgba(170, 141, 125, 0) 0%, rgb(170, 141, 125) 100%);">
                                             </div>
                                         </div>
                                         <div data-v-183aee7c="" class="card-img-out">
-                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[8]["title"] ?>"</h5>
+                                            <h5 data-v-183aee7c="" itemprop="name" class="card-title"> "<?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?>"</h5>
                                             <!---->
                                         </div>
                                     </div>
@@ -295,21 +327,25 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[9]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
-                                                        src="<?php echo $offers[9]["img"]?>"
+                                                        src="<?php echo $offers[$a]["img"]?>"
                                                         itemprop="image" class="card-img">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[9]["title"]?></h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?></h5>
 
                                                 </div>
                                             </div>
@@ -318,21 +354,25 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                    
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[10]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                         data-id="a0028349-6a6e-4a5d-b5be-59b3a4474c24" data-index="9" itemprop="url"
                                         class="item item_bottom" style="background: rgb(194, 172, 163); color: black;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
-                                                        src="<?php echo $offers[10]["img"]?>"
+                                                        src="<?php echo $offers[$a]["img"]?>"
                                                         itemprop="image" class="card-img">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(194, 172, 163, 0) 0%, rgb(194, 172, 163) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[10]["title"]?></h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?></h5>
 
                                                 </div>
                                             </div>
@@ -341,21 +381,25 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                    
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[11]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                          data-id="29be6976-44bc-40de-b695-3c49a1905c4c" data-index="10" itemprop="url"
                                         class="item item_bottom" style="background: rgb(239, 237, 199); color: black;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
-                                                        src="<?php echo $offers[11]["img"]?>"
+                                                        src="<?php echo $offers[$a]["img"]?>"
                                                         itemprop="image" class="card-img">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(239, 237, 199, 0) 0%, rgb(239, 237, 199) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[11]["title"]?> </h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?> </h5>
 
                                                 </div>
                                             </div>
@@ -366,14 +410,14 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                   
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[12]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                         data-id="7f161b4e-81cf-47bd-a710-8397bb1f2008" data-index="11" itemprop="url"
                                         class="item item_bottom" style="background: rgb(43, 28, 23); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
-                                                        src="<?php echo $offers[12]["img"]?>"
+                                                        src="<?php echo $offers[$a]["img"]?>"
                                                         itemprop="image" class="card-img">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(43, 28, 23, 0) 0%, rgb(43, 28, 23) 100%);">
@@ -381,7 +425,11 @@ include "modules/dbaccepter.php";
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
                                                     <h5 data-v-183aee7c="" itemprop="name" class="card-title">
-                                                    <?php echo $offers[12]["title"]?>
+                                                    <?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?>
                                                     </h5>
 
                                                 </div>
@@ -391,15 +439,19 @@ include "modules/dbaccepter.php";
                                 <div data-v-90bd7082="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-8 col-md-8 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-90bd7082=""
-                                        href="<?php echo $offers[13]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                         data-id="d136836b-278d-49ee-b62d-d8da17fda826" data-index="12" itemprop="url"
                                         class="item item-sec-row" style="background: rgb(134, 110, 116); color: white;">
                                         <div data-v-90bd7082="" class="card_col_1"><img data-v-90bd7082=""
                                                 crossorigin="anonymous"
-                                                src="<?php echo $offers[13]["img"]?>"
+                                                src="<?php echo $offers[$a]["img"]?>"
                                                 itemprop="image" class="card-img"></div>
                                         <div data-v-90bd7082="" class="card-img-out">
-                                            <h5 data-v-90bd7082="" itemprop="name" class="card-title"><?php echo $offers[13]["title"]?></h5>
+                                            <h5 data-v-90bd7082="" itemprop="name" class="card-title"><?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?></h5>
                                             
                                             <div data-v-90bd7082="" class="item__gradient"
                                                 style="background: radial-gradient(100% 500% at 100% center, rgba(134, 110, 116, 0) 55%, rgb(134, 110, 116) 75%);">
@@ -411,15 +463,19 @@ include "modules/dbaccepter.php";
                                 <div data-v-90bd7082="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-8 col-md-8 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-90bd7082=""
-                                        href="<?php echo $offers[14]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                          data-id="5a373e9d-1bdc-4836-abf5-792ac52104ff" data-index="13" itemprop="url"
                                         class="item item-sec-row" style="background: rgb(211, 175, 166); color: black;">
                                         <div data-v-90bd7082="" class="card_col_1"><img data-v-90bd7082=""
                                                 crossorigin="anonymous"
-                                                src="<?php echo $offers[14]["img"]?>"
+                                                src="<?php echo $offers[$a]["img"]?>"
                                                 itemprop="image" class="card-img"></div>
                                         <div data-v-90bd7082="" class="card-img-out">
-                                            <h5 data-v-90bd7082="" itemprop="name" class="card-title"><?php echo $offers[14]["title"]?></h5>
+                                            <h5 data-v-90bd7082="" itemprop="name" class="card-title"><?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?></h5>
 
                                             <div data-v-90bd7082="" class="item__gradient"
                                                 style="background: radial-gradient(100% 500% at 100% center, rgba(211, 175, 166, 0) 55%, rgb(211, 175, 166) 75%);">
@@ -429,21 +485,25 @@ include "modules/dbaccepter.php";
                                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[15]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                         data-id="229ad99d-05ff-47ec-a120-329fb6289d71" data-index="14" itemprop="url"
                                         class="item item_bottom" style="background: rgb(188, 151, 134); color: black;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
-                                                        src="<?php echo $offers[15]["img"]?>"
+                                                        src="<?php echo $offers[$a]["img"]?>"
                                                         itemprop="image" class="card-img">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(188, 151, 134, 0) 0%, rgb(188, 151, 134) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"> <?php echo $offers[15]["title"]?> </h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"> <?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?> </h5>
                                                     
                                                 </div>
                                             </div>
@@ -481,21 +541,25 @@ include "modules/dbaccepter.php";
                 <div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[16]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
-                                                        src="<?php echo $offers[16]["img"]?>"
+                                                        src="<?php echo $offers[$a]["img"]?>"
                                                         itemprop="image" class="card-img">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[16]["title"]?></h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?></h5>
 
                                                 </div>
                                             </div>
@@ -503,21 +567,25 @@ include "modules/dbaccepter.php";
                                     </a></div><div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[17]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
-                                                        src="<?php echo $offers[17]["img"]?>"
+                                                        src="<?php echo $offers[$a]["img"]?>"
                                                         itemprop="image" class="card-img">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[17]["title"]?></h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?></h5>
 
                                                 </div>
                                             </div>
@@ -526,21 +594,25 @@ include "modules/dbaccepter.php";
                                     
                                 
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[18]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
-                                                        src="<?php echo $offers[18]["img"]?>"
+                                                        src="<?php echo $offers[$a]["img"]?>"
                                                         itemprop="image" class="card-img">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[18]["title"]?></h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?></h5>
 
                                                 </div>
                                             </div>
@@ -548,21 +620,25 @@ include "modules/dbaccepter.php";
                                     </a></div><div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     itemtype="https://schema.org/NewsArticle"
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[19]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
-                                                        src="<?php echo $offers[19]["img"]?>"
+                                                        src="<?php echo $offers[$a]["img"]?>"
                                                         itemprop="image" class="card-img">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[19]["title"]?></h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?></h5>
 
                                                 </div>
                                             </div>
@@ -570,21 +646,25 @@ include "modules/dbaccepter.php";
                                     </a></div><div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     itemtype="https://schema.org/NewsArticle"
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[20]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
-                                                        src="<?php echo $offers[20]["img"]?>"
+                                                        src="<?php echo $offers[$a]["img"]?>"
                                                         itemprop="image" class="card-img">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[20]["title"]?></h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?></h5>
 
                                                 </div>
                                             </div>
@@ -592,21 +672,25 @@ include "modules/dbaccepter.php";
                                     </a></div><div data-v-183aee7c="" data-v-316d0eb3="" itemscope="itemscope"
                                     itemtype="https://schema.org/NewsArticle"
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
-                                        href="<?php echo $offers[21]["link"]?>"target=»_blank»
+                                        href="<?php echo $offers[$a]["link"]?>"target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
                                         class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
-                                                        src="<?php echo $offers[21]["img"]?>"
+                                                        src="<?php echo $offers[$a]["img"]?>"
                                                         itemprop="image" class="card-img">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[21]["title"]?></h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title"><?php echo $offers[$a]["title"];
+                                                    $a++;
+                                                    if ($a > $i){
+                                                        $a = 0;
+                                                    }?></h5>
 
                                                 </div>
                                             </div>
@@ -616,9 +700,6 @@ include "modules/dbaccepter.php";
             </div>
         </div>
     </div>
-    <div style="display:none;" class="phplink"><?php echo $offers[22]["link"]?></div>
-    <div style="display:none;" class="phptitle"><?php echo $offers[22]["title"]?></div>
-    <div style="display:none;" class="phpimg"><?php echo $offers[22]["img"]?></div>
     <div class="infinite-scroll"></div>
     <script src="script.js"></script>
 </body>
