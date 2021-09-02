@@ -8,16 +8,17 @@ $news = mysqli_fetch_assoc($newsTable);
 $i = 0;
 $a = 0;
 
+
 while ($offers[$i] = mysqli_fetch_assoc($offersTable)) {
 $i++;
-print_r($i);
 }
+$json = json_encode($offers);
+
 function aAdditorFunc($offers,&$a,$i){
     $a++;
     if ($a == $i){
         $a = 0;
     }
-    print_r($i);
     return $offers[$a];
 }
 
