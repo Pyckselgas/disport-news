@@ -296,19 +296,19 @@ include "modules/dbaccepter.php";
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
                                           target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
-                                        class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
+                                        class="item item_bottom staticTeaserLink8" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
                                                          
-                                                        itemprop="image" class="card-img teaser-img">
+                                                        itemprop="image" class="card-img teaser-img staticTeaserImg8">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title">sample text</h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title staticTeaserTitle">sample text</h5>
 
                                                 </div>
                                             </div>
@@ -318,19 +318,19 @@ include "modules/dbaccepter.php";
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
                                           target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
-                                        class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
+                                        class="item item_bottom staticTeaserLink9" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
                                                          
-                                                        itemprop="image" class="card-img teaser-img">
+                                                        itemprop="image" class="card-img teaser-img staticTeaserImg9">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title">sample text</h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title staticTeaserTitle9">sample text</h5>
 
                                                 </div>
                                             </div>
@@ -341,19 +341,19 @@ include "modules/dbaccepter.php";
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
                                           target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
-                                        class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
+                                        class="item item_bottom staticTeaserLink10" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
                                                          
-                                                        itemprop="image" class="card-img teaser-img">
+                                                        itemprop="image" class="card-img teaser-img staticTeaserImg10">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title">sample text</h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title staticTeaserTitle10">sample text</h5>
 
                                                 </div>
                                             </div>
@@ -363,19 +363,19 @@ include "modules/dbaccepter.php";
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
                                           target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
-                                        class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
+                                        class="item item_bottom staticTeaserLink11" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
                                                          
-                                                        itemprop="image" class="card-img teaser-img">
+                                                        itemprop="image" class="card-img teaser-img staticTeaserImg11">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title">sample text</h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title staticTeaserTitle11">sample text</h5>
 
                                                 </div>
                                             </div>
@@ -385,19 +385,19 @@ include "modules/dbaccepter.php";
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
                                           target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
-                                        class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
+                                        class="item item_bottom staticTeaserLink12" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
                                                          
-                                                        itemprop="image" class="card-img teaser-img">
+                                                        itemprop="image" class="card-img teaser-img staticTeaserImg12">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title">sample text</h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title staticTeaserTitle12">sample text</h5>
 
                                                 </div>
                                             </div>
@@ -407,19 +407,19 @@ include "modules/dbaccepter.php";
                                     class="col-lg-4  col-md-4 col-sm-12 pl-0 pr-0 d-flex teasers"><a data-v-183aee7c=""
                                         href=""target=»_blank»
                                         data-id="81826bfb-1583-4b9c-a998-879f008e9943" data-index="8" itemprop="url"
-                                        class="item item_bottom" style="background: rgb(55, 54, 53); color: white;">
+                                        class="item item_bottom staticTeaserLink13" style="background: rgb(55, 54, 53); color: white;">
                                         <div data-v-183aee7c="" class="container__wrapper">
                                             <div data-v-183aee7c="" class="container__content">
                                                 <div data-v-183aee7c="" class="card_col_1"><img data-v-183aee7c=""
                                                         crossorigin="anonymous"
                                                          
-                                                        itemprop="image" class="card-img teaser-img">
+                                                        itemprop="image" class="card-img teaser-img staticTeaserImg13">
                                                     <div data-v-183aee7c="" class="item__gradient"
                                                         style="background: linear-gradient(rgba(55, 54, 53, 0) 0%, rgb(55, 54, 53) 100%);">
                                                     </div>
                                                 </div>
                                                 <div data-v-183aee7c="" class="card-img-out">
-                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title">sample text</h5>
+                                                    <h5 data-v-183aee7c="" itemprop="name" class="card-title staticTeaserTitle13">sample text</h5>
 
                                                 </div>
                                             </div>
